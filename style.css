@@ -1,0 +1,110 @@
+h1, h2, span, p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+body {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+.navbar-toggler, .navbar-toggler:hover, .navbar-toggler:focus, .navbar-toggler:active {
+    border: none;
+    box-shadow: none;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.icon-top {
+    max-height: 2.5rem;
+    padding-right: 0.7rem;
+}
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+.search-input {
+    padding: 0.6rem;
+}
+.card-image {
+    /* max-width: 1.4em; */
+    max-width: 100%;
+}
+.infobadge {
+    padding: 0.8em 1.3em;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+.navbar-logo {
+    color: var(--color-header-logo);
+    white-space: nowrap;
+    font-size: 1.2em;
+}
+#repos {
+    margin-top: 2em;
+}
+.octicon {
+    display: inline-block;
+    overflow: visible !important;
+    vertical-align: text-bottom;
+    fill: currentColor;
+    margin-right: 0.3em;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.navbar-collapse {
+    flex-grow: inherit;
+}
+#btc-title {
+    font-size: 15px;
+    display: block;
+}
+#btc-price, #btc-time {
+    font-size: 28px;
+    display: block;
+}
+small {
+    font-size: .675em;
+}
